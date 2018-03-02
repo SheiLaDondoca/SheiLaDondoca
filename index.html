@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sheila CV</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="background"> 
+<div class="nav" >
+	<a class="a active" href="#">My Resume</a>
+	<a class="b" href="#">My Work</a>
+	<a class="c" href="#">My Skils</a>
+
+</div>
+<div class="content">
+	<div class="home">
+		<h1>I am Sheila Gabriel Andre</h1>
+		<h3>Documentation and Tester Expert</h3>
+		
+	</div>
+	<div class="mywork">
+		<p> Am receiving degree in Computer science from University Eduardo Mondlane and is currently working for Saudigitus in a member of DHIS2 implementation activities.<br> A strong advocate for  professional interests focus on health system, mobile technology, User experience (UX) and Documentation.<br> In addition, am serves as Facilitator in DHIS2 Academy carried out by Saudigitus in collaboration with a number of others institutions such as Ministry of health, University of Oslo and UEM.
+</p>
+		
+ 
+
+	</div>
+
+
+
+
+
+</div>
+</div>
+
+<script type="text/javascript" src= "jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	
+$(document).ready(function(){
+
+	$('a').click(function(){
+		//alert("I am click")
+		$('a').removeClass('active');
+
+
+	});
+
+	var $a = $('.a'),
+	$b = $('.b'),
+	$c = $('.c'),
+	$home = $('.home'),
+	$mywork = $('.mywork');
+
+	$a.click(function(){
+		$home.fadeIn();
+		$mywork.fadeOut(); 
+
+	});
+
+	$b.click(function(){ 
+		$mywork.fadeIn();
+		$home.fadeOut();
+
+
+	});
+});
+
+
+</script>
+
+</body>
+</html>
