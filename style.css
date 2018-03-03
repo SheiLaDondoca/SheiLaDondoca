@@ -17,7 +17,7 @@ html,body{
 } .background{
 	width: 100%;
 	height: 100%;
-	background-image: url(3.jpeg);
+	background-image: url(2.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -43,7 +43,7 @@ html,body{
     float: left;
    display: inline-block;
     background-color: black ;
-    color: white;
+    color: rgb(230, 230, 0);
      line-height: 90px;
      text-align: center;
      transition: 300ms;
@@ -67,7 +67,7 @@ html,body{
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	color: white;
+	color: rgb(230, 230, 0);
 	font-family:verdana;
     text-transform: uppercase;
 
@@ -86,7 +86,7 @@ opacity: 0.6;
 	position: absolute;
 	right: 0;
 	top: 60px;
-	color: white;
+	color:black;
 	font-family:century gothic;
 	padding: 0 60px;
 	display: none;
@@ -98,5 +98,32 @@ opacity: 0.6;
 
 
 
+}.mySkills{
+	position: absolute;
+	right: 0;
+	top: 60px;
+	color:rgb(230, 230, 0);
+	padding: 0 60px;
+	display: none;
 
-}
+} .mySkills .image{
+
+
+	width: 40%;
+	margin: 2%;
+	float: left;
+
+}.image img{
+
+	width: 100%;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+
+}.image img:hover{
+
+transform: scale(1.2);
+-webkit-transform: scale(1.2);
+
+}}
